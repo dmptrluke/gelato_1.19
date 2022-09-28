@@ -1,0 +1,5 @@
+*.jar
+**/texturepacks/*.zip
+**/shaderpacks/*.zip
+FP*.xml
+mat_*.zip

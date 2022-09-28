@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://launcher.dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com https://launcher.dmptr.com/launcher/ServerPackv2.xsd">
+    <Server id="gelato" abstract="false" name="Gelato" newsUrl="https://launcher.dmptr.com/gelato/pack.xml" version="1.19.2" generateList="true" autoConnect="true" revision="1" mainClass="net.fabricmc.loader.impl.launch.knot.KnotClient" serverClass="net.fabricmc.loader.launch.server.FabricServerLauncher" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/dirt.png">
+        <!-- Metadata -->
+        <Meta>
+            <note>A basic set of optimisation mods for the latest version of Minecraft.</note>
+        </Meta>
+
+        <!-- Loaders -->
+        <Import url="https://fabricmc.net/download/mcupdater?yarn=1.19.2%2Bbuild.9&amp;loader=0.14.9">fabric</Import>
+
+        <!-- Core -->
+        <Module name="Balm" id="balm-fabric" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/balm-fabric-4.5.2+0.jar</URL>
+			<Size>640522</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fddb553824648bbf5ab1ebd8c1b95d64</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Abstraction Layer (but not really)™ for Blay&apos;s multiplatform mods</description>
+				<version>4.5.2+0</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+        <Module name="Fabric API" id="fabric-api" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/fabric-api-0.60.0+1.19.2.jar</URL>
+            <Size>1510130</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>0acd3332ce49df81f9734f1e37491a04</MD5>
+            <Meta>
+                <license>Apache-2.0</license>
+                <description>Core API module providing key hooks and intercompatibility features.</description>
+                <version>0.60.0+1.19.2</version>
+                <authors>FabricMC</authors>
+            </Meta>
+        </Module>
+
+        <!-- Mods -->
+        <Module name="Armored Elytra" id="armored-elytra" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/armored-elytra-mc1.19-4.0.0+build.20%20(1).jar</URL>
+			<Size>47166</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5313a3fdd26fb45dc745915dd34164c6</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Show the armor and elytra when using the armored elytra datapack</description>
+				<version>4.0.0+build.20</version>
+				<authors>MrMelon54</authors>
+			</Meta>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/appleskin-fabric-mc1.19-2.4.1.jar</URL>
+			<Size>1040951</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>292570409b9d7311c8b501d434696da2</MD5>
+			<Meta>
+				<license>Unlicense</license>
+				<description>Adds various food-related HUD improvements</description>
+				<version>2.4.1+mc1.19</version>
+				<authors>squeek502</authors>
+			</Meta>
+		</Module>
+        <Module name="Better Biome Blend" id="betterbiomeblend" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/playpack_6/files/mods/betterbiomeblend-1.18.2-1.3.5-forge.jar</URL>
+            <Size>52209</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>14f035b431177099b44cc41e890eec36</MD5>
+            <Meta>
+                <license>All rights reserved</license>
+                <description>    This mod increases the biome color blending radius and replaces the original blending algorithm with a more efficient one.</description>
+                <version>1.3.5-forge</version>
+                <authors>FionaTheMortal</authors>
+            </Meta>
+        </Module>
+        <Module name="CIT Resewn" id="citresewn" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/CITResewn-1.1.2+1.19.2.jar</URL>
+			<Size>383449</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>924defd178a60aa611f5df8e0e97ebbf</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Re-implements MCPatcher&apos;s CIT</description>
+				<version>1.1.2+1.19.2</version>
+				<authors>SHsuperCM</authors>
+			</Meta>
+		</Module>
+        <Module name="Cloth Config" id="cloth-config" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/cloth-config-8.0.75-fabric.jar</URL>
+            <Size>1129049</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>2cc601bffd431cc035b92f309bb29b05</MD5>
+            <Meta>
+                <license>GNU LGPLv3</license>
+                <description>An API for config screens.</description>
+                <version>8.0.75</version>
+                <authors>shedaniel</authors>
+            </Meta>
+        </Module>
+        <Module name="Continuity" id="continuity" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/continuity-2.0.1+1.19%20(1).jar</URL>
+			<Size>1128730</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f2f08e17c5812420e4f5de70a6b5158b</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Continuity is a Fabric mod built around modern APIs to allow for the most efficient connected textures experience possible. It is designed to provide full Optifine parity for all resource packs that use the Optifine CTM format. Continuity also supports Optifine-format emissive textures for block and item models.</description>
+				<version>2.0.1+1.19</version>
+				<authors>Pepper_Bell</authors>
+			</Meta>
+		</Module>
+        <Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/craftingtweaks-fabric-1.19-15.1.0.jar</URL>
+			<Size>177665</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9989b1ad3287e4a9783793415b8d4b21</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Allows you to rotate, balance or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>15.1.0</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+        <Module name="Debugify" id="debugify" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/Debugify-2.5.0.jar</URL>
+            <Size>272540</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>702916e2cd94bfcdfb43a1f7c0f024c1</MD5>
+        </Module>
+        <Module name="Default Options" id="defaultoptions" depends="balm-fabric" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/defaultoptions-fabric-1.19-15.0.0.jar</URL>
+			<Size>89336</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b6fe1a6978b455983ff1126ca6a7daf</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>A way for modpacks to ship a default (key) configuration without having to include an options.txt file. Also allows local options from any mod .cfg file.</description>
+				<version>15.0.0</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/gelato/files/config/defaultoptions/keybindings.txt</URL>
+				<Path>config/defaultoptions/keybindings.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ddbe0b98a4020b0d495f942d32dfdc4b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/gelato/files/config/defaultoptions/options.txt</URL>
+				<Path>config/defaultoptions/options.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>16349e8fce26251a278566c6c4050914</MD5>
+			</ConfigFile>
+		</Module>
+        <Module name="LambDynamicLights" id="lambdynlights" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/lambdynamiclights-2.1.2+1.19.jar</URL>
+			<Size>556414</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>a0e23729ef6a9d1166a9730fefb6fcd9</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Adds dynamic lights to the game.</description>
+				<version>2.1.2+1.19</version>
+				<authors>LambdAurora</authors>
+			</Meta>
+		</Module>
+        <Module name="Ears" id="ears" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/ears-fabric-1.19-1.4.6.jar</URL>
+			<Size>169859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>62359e3fafcb205129cf5388bc16c9c9</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Faithful fancy fashion features for fuzzy folk.</description>
+				<version>1.4.6</version>
+				<authors>unascribed</authors>
+			</Meta>
+		</Module>
+        <Module name="Enhanced Block Entities" id="enhancedblockentities" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/enhancedblockentities-0.7.1+1.19.jar</URL>
+			<Size>448841</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9b542b25f20ae3236c6e87032ba589b6</MD5>
+			<Meta>
+				<license>LGPLv3</license>
+				<description>Optimize and customize block entity rendering with a more modern approach.</description>
+				<version>0.7.1+1.19</version>
+				<authors>FoundationGames</authors>
+			</Meta>
+		</Module>
+        <Module name="EntityCulling" id="entityculling" depends="" side="CLIENT">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/entityculling-fabric-1.5.2-mc1.19.jar</URL>
+            <Size>75567</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>1efa6bf98014d1d78a077bcb38f11bbe</MD5>
+            <Meta>
+                <license>tr7zw Protective License</license>
+                <description>This mod uses async path-tracing to hide Tiles/Entities that are not visible.</description>
+                <version>1.5.2-mc1.19</version>
+                <authors>tr7zw</authors>
+            </Meta>
+        </Module>
+        <Module name="Entity Texture Features" id="entity_texture_features" depends="" side="CLIENT">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/entity_texture_features_fabric_1.19.x-4.1.1.jar</URL>
+			<Size>343674</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b112204229050847a338bd65cf6610a1</MD5>
+		</Module>
+        <Module name="Farsight Mod" id="farsight" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/farsight-fabric-1.19.1-2.0.jar</URL>
+			<Size>8426</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e759dcf8c74c19f3043f570f0f0a068f</MD5>
+			<Meta>
+				<license>ARR</license>
+				<description>Farsight lets you see further than the servers view distance</description>
+				<version>1.19.1-2.0</version>
+				<authors>Someaddon</authors>
+			</Meta>
+		</Module>
+		<Module name="FerriteCore" id="ferritecore" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/ferritecore-5.0.0-fabric.jar</URL>
+			<Size>119108</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1fec8dc10fe59a198a934e36822d550d</MD5>
+			<Meta>
+				<license>MIT</license>
+				<description>Reduces memory usage</description>
+				<version>4.2.1</version>
+				<authors>malte0811</authors>
+			</Meta>
+		</Module>
+        <Module name="Inventory Essentials" id="inventoryessentials" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/inventoryessentials-fabric-1.19-5.0.0.jar</URL>
+			<Size>133595</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>39cd2cd4ba3e3c031add57baea189042</MD5>
+			<Meta>
+				<license>All Rights Reserved</license>
+				<description>Basic inventory tweaks. Lightweight and compatible.</description>
+				<version>5.0.0</version>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+        <Module name="Iris" id="iris" depends="" side="CLIENT">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/iris-mc1.19.2-1.3.1.jar</URL>
+			<Size>1566698</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>69c0e3a7bd933b044ef7a5ee2572e58a</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs</description>
+				<version>1.3.1</version>
+				<authors>coderbot, IMS212, Justsnoopy30, FoundationGames</authors>
+			</Meta>
+            <Submodule name="Complementary" id="complementary" depends="" side="BOTH">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/complementary.zip</URL>
+                <ModPath>shaderpacks/Complementary Shaders.zip</ModPath>
+                <Size>3454588</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>7a48a5dd0f154855ed5a1f2def959ec3</MD5>
+            </Submodule>
+            <Submodule name="Sildur&apos;s Enhanced Default - Fancy" id="sildursenhanceddefaultfancy" depends="" side="CLIENT">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/enhanceddefaultfancy.zip</URL>
+                <ModPath>shaderpacks/Sildur&apos;s Enhanced Default - Fancy.zip</ModPath>
+                <Size>35759</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>cac9b6a1872082f7c90147b2482a3715</MD5>
+            </Submodule>
+            <Submodule name="Sildur&apos;s Enhanced Default - Fast" id="sildursenhanceddefaultfast" depends="" side="CLIENT">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/enhanceddefaultfast.zip</URL>
+                <ModPath>shaderpacks/Sildur&apos;s Enhanced Default - Fast.zip</ModPath>
+                <Size>35758</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>330a65199b01789c9d95f846b4b870e3</MD5>
+            </Submodule>
+            <Submodule name="Sildur&apos;s Vibrant - Extreme" id="vibrantextreme" depends="" side="CLIENT">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/vibrantextreme.zip</URL>
+                <ModPath>shaderpacks/Sildur&apos;s Vibrant - Extreme.zip</ModPath>
+                <Size>143630</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>24eebee169fbb5716a57dd4064c1472b</MD5>
+            </Submodule>
+            <Submodule name="Sildur&apos;s Vibrant - Extreme VL" id="vibrantextremevl" depends="" side="CLIENT">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/vibrantextremevl.zip</URL>
+                <ModPath>shaderpacks/Sildur&apos;s Vibrant - Extreme VL.zip</ModPath>
+                <Size>143644</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>657112aaf980190e7f939435297ad777</MD5>
+            </Submodule>
+            <Submodule name="Sildur&apos;s Vibrant - High" id="vibranthigh" depends="" side="CLIENT">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/vibranthigh.zip</URL>
+                <ModPath>shaderpacks/Sildur&apos;s Vibrant - High.zip</ModPath>
+                <Size>143640</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>0b47dfbc8305fee5cc2387768c400c7d</MD5>
+            </Submodule>
+            <Submodule name="Sildur&apos;s Vibrant - Medium" id="vibrantmedium" depends="" side="CLIENT">
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/shaderpacks/vibrantmedium.zip</URL>
+                <ModPath>shaderpacks/Sildur&apos;s Vibrant - Medium.zip</ModPath>
+                <Size>143642</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>cfe059d8e5cdd78490d41c50325bfb96</MD5>
+            </Submodule>
+        </Module>
+        <Module name="Item Model Fix" id="itemmodelfix" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/item-model-fix-1.0.3+1.19.jar</URL>
+			<Size>32537</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ef80183f2a6836f155be6296e9e60323</MD5>
+			<Meta>
+				<license>LGPL-3.0-only</license>
+				<description>Fixes gaps in generated item models.
+To access the configuration, follow the instructions on the mod website.</description>
+				<version>1.0.3+1.19</version>
+				<authors>Pepper_Bell</authors>
+			</Meta>
+		</Module>
+        <Module name="LazyDFU" id="lazydfu" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/lazydfu-0.1.3.jar</URL>
+            <Size>14531</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>b36e83f424c5bb5100a3e8ffea0c6ce7</MD5>
+            <Meta>
+                <license>MIT</license>
+                <description>Makes DataFixerUpper more lazy</description>
+                <version>0.1.3</version>
+                <authors>tuxed</authors>
+            </Meta>
+        </Module>
+        <Module name="Lithium" id="lithium" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/lithium-fabric-mc1.19.2-0.8.3.jar</URL>
+            <Size>476626</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>6f9a4c67ec7d5ccf73ba1e4fe7cdbc01</MD5>
+        </Module>
+        <Module name="Mod Menu" id="modmenu" depends="fabric-api" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/modmenu-4.0.6.jar</URL>
+            <Size>445942</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>7d43642927290f6a90489e11646ce759</MD5>
+            <Meta>
+                <license>MIT</license>
+                <description>Adds a mod menu to view the list of mods you have installed.</description>
+                <version>4.0.6</version>
+                <authors>Prospector, jackassmc, TerraformersMC</authors>
+            </Meta>
+        </Module>
+		<Module name="Mouse Tweaks" id="mousetweaks" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/MouseTweaks-fabric-mc1.19-2.22.jar</URL>
+			<Size>77282</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e3ba2d5bdaf8440c34f74b8b7f1ef2e2</MD5>
+			<Meta>
+				<license>BSD-3-Clause</license>
+				<description>A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.</description>
+				<version>2.22</version>
+				<authors>Ivan Molodetskikh (YaLTeR)</authors>
+			</Meta>
+		</Module>
+        <Module name="NoChatReports" id="nochatreports" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/NoChatReports-FABRIC-1.19.2-v1.11.2.jar</URL>
+			<Size>414099</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>055c6e754f1b904b046b25c90ba529e4</MD5>
+		</Module>
+        <Module name="Sodium" id="sodium" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/sodium-fabric-mc1.19.2-0.4.4+build.18.jar</URL>
+            <Size>1372575</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>f864470ac732f505dd5c774010449540</MD5>
+            <Meta>
+                <license>LGPL-3.0-only</license>
+                <description>Sodium is a free and open-source optimization mod for Minecraft which improves frame rates and reduces lag spikes.</description>
+                <version>0.4.4+build.18</version>
+                <authors>JellySquid</authors>
+            </Meta>
+            <Submodule name="Indium" id="indium" >
+                <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/indium-1.0.9+mc1.19.2.jar</URL>
+                <Size>118642</Size>
+                <Required>true</Required>
+                <ModType>Regular</ModType>
+                <MD5>a25b46d926718635b5f67e17a5f7b4d4</MD5>
+                <Meta>
+                    <license>Apache-2.0</license>
+                    <description>Sodium addon providing support for the Fabric Rendering API, based on Indigo</description>
+                    <version>1.0.9+mc1.19.2</version>
+                    <authors>comp500</authors>
+                </Meta>
+            </Submodule>
+        </Module>
+        <Module name="Starlight" id="starlight" depends="" side="BOTH">
+            <URL priority="1">https://launcher.dmptr.com/gelato/files/mods/starlight-1.1.1+fabric.ae22326.jar</URL>
+            <Size>127465</Size>
+            <Required>true</Required>
+            <ModType>Regular</ModType>
+            <MD5>98bca210d5ddaee18a6375ad27f505f8</MD5>
+            <Meta>
+                <license>LGPL-3.0-only</license>
+                <description>Rewrites the light engine to fix lighting performance and lighting errors</description>
+                <version>1.1.1+fabric.ae22326</version>
+                <authors>Spottedleaf</authors>
+            </Meta>
+        </Module>
+        <Module name="Xaero&apos;s Minimap" id="xaerominimap" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/Xaeros_Minimap_22.14.0_Fabric_1.19.1.jar</URL>
+			<Size>1293538</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a35bb61d8e29d1dc377dc94653e1b1dc</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>The most vanilla-looking minimap for Minecraft.</description>
+				<version>22.14.0</version>
+				<authors>Xaero96</authors>
+			</Meta>
+            <ConfigFile>
+                <URL priority="0">https://launcher.dmptr.com/gelato/files/config/xaerominimap.txt</URL>
+                <Path>config/xaerominimap.txt</Path>
+                <NoOverwrite>true</NoOverwrite>
+                <MD5>52fb2fe1cf38e8882ba1f84c41449c19</MD5>
+            </ConfigFile>
+            <ConfigFile>
+                <URL priority="0">https://launcher.dmptr.com/gelato/files/config/xaerominimap_entities.json</URL>
+                <Path>config/xaerominimap_entities.json</Path>
+                <NoOverwrite>false</NoOverwrite>
+                <MD5>f5b8f4aeac8bd7e7975d9e11ac6eaff2</MD5>
+            </ConfigFile>
+        </Module>
+        <Module name="Xaero&apos;s World Map" id="xaeroworldmap" depends="" side="BOTH">
+			<URL priority="1">https://launcher.dmptr.com/gelato/files/mods/XaerosWorldMap_1.27.0_Fabric_1.19.1.jar</URL>
+			<Size>744515</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a83769f8af0a0f5177463367af1c0cc9</MD5>
+			<Meta>
+				<license>All rights reserved</license>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.27.0</version>
+				<authors>Xaero96</authors>
+			</Meta>
+        </Module>
+    </Server>
+</ServerPack>
